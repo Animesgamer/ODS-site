@@ -1,0 +1,37 @@
+/* Paleta de Cores ODS 4 */
+:root {
+    --ods4-red: #C5192D;
+}
+
+.bg-ods4 { 
+    background-color: var(--ods4-red) !important; 
+}
+
+.text-ods4 { 
+    color: var(--ods4-red) !important; 
+}
+
+.border-ods4-line {
+    border-color: var(--ods4-red) !important;
+}
+
+/* Efeito Moderno nos Cards */
+.card { 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: none; 
+}
+
+.card:hover { 
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important; 
+}
+
+/* Botão Personalizado */
+.btn-danger {
+    background-color: var(--ods4-red);
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #a31425;
+}
